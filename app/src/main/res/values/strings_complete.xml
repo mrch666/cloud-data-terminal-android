@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App name and basic info -->
+    <string name="app_name">Cloud Data Terminal</string>
+    <string name="app_description">Мобильное приложение для сканирования штрих-кодов товаров</string>
+    
+    <!-- Navigation -->
+    <string name="scanner">Сканер</string>
+    <string name="inventory">Инвентаризация</string>
+    <string name="products">Товары</string>
+    <string name="settings">Настройки</string>
+    <string name="reports">Отчеты</string>
+    <string name="dashboard">Главная</string>
+    
+    <!-- Scanner screen -->
+    <string name="scan_barcode">Сканировать штрих-код</string>
+    <string name="flash">Вспышка</string>
+    <string name="save_session">Сохранить сессию</string>
+    <string name="clear_list">Очистить список</string>
+    <string name="scanning">Сканирование...</string>
+    <string name="scan_success">Штрих-код отсканирован</string>
+    <string name="scan_error">Ошибка сканирования</string>
+    <string name="camera_error">Ошибка камеры</string>
+    <string name="switch_camera">Переключить камеру</string>
+    <string name="scan_count">Сканов: %d</string>
+    <string name="scanned_items">Отсканировано: %d</string>
+    
+    <!-- Inventory screen -->
+    <string name="inventory_title">Инвентаризация</string>
+    <string name="total_products">Всего товаров: %d</string>
+    <string name="search_products">Поиск товаров...</string>
+    <string name="filter_by_category">Фильтр по категории</string>
+    <string name="sort_by">Сортировать по</string>
+    <string name="export_inventory">Экспорт инвентаря</string>
+    <string name="import_inventory">Импорт инвентаря</string>
+    <string name="inventory_stats">Статистика инвентаря</string>
+    <string name="no_products">Нет товаров</string>
+    <string name="add_product">Добавить товар</string>
+    
+    <!-- Products screen -->
+    <string name="products_title">Товары</string>
+    <string name="add_new_product">Добавить товар</string>
+    <string name="edit_product">Редактировать товар</string>
+    <string name="delete_product">Удалить товар</string>
+    <string name="product_name">Название товара</string>
+    <string name="product_barcode">Штрих-код</string>
+    <string name="product_category">Категория</string>
+    <string name="product_price">Цена</string>
+    <string name="product_description">Описание</string>
+    <string name="product_unit">Единица измерения</string>
+    <string name="save_product">Сохранить товар</string>
+    <string name="cancel">Отмена</string>
+    <string name="delete_confirmation">Удалить товар?</string>
+    <string name="import_csv">Импорт CSV</string>
+    <string name="export_csv">Экспорт CSV</string>
+    
+    <!-- Settings screen -->
+    <string name="settings_title">Настройки</string>
+    <string name="api_settings">Настройки API</string>
+    <string name="api_url">URL API</string>
+    <string name="api_key">Ключ API</string>
+    <string name="sync_settings">Настройки синхронизации</string>
+    <string name="sync_interval">Интервал синхронизации</string>
+    <string name="auto_upload">Автоматическая загрузка</string>
+    <string name="camera_settings">Настройки камеры</string>
+    <string name="enable_flash">Включить вспышку</string>
+    <string name="enable_sound">Включить звук</string>
+    <string name="barcode_formats">Форматы штрих-кодов</string>
+    <string name="app_settings">Настройки приложения</string>
+    <string name="clear_cache">Очистить кэш</string>
+    <string name="reset_settings">Сбросить настройки</string>
+    <string name="test_connection">Тестировать соединение</string>
+    <string name="save_settings">Сохранить настройки</string>
+    
+    <!-- Reports screen -->
+    <string name="reports_title">Отчеты</string>
+    <string name="generate_report">Сгенерировать отчет</string>
+    <string name="export_report">Экспорт отчета</string>
+    <string name="report_period">Период отчета</string>
+    <string name="scan_report">Отчет по сканированиям</string>
+    <string name="products_report">Отчет по товарам</string>
+    <string name="activity_report">Отчет по активности</string>
+    <string name="efficiency_report">Отчет по эффективности</string>
+    <string name="inventory_report">Отчет по инвентарю</string>
+    <string name="refresh_reports">Обновить отчеты</string>
+    
+    <!-- Common actions -->
+    <string name="save">Сохранить</string>
+    <string name="delete">Удалить</string>
+    <string name="edit">Редактировать</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="back">Назад</string>
+    <string name="next">Далее</string>
+    <string name="done">Готово</string>
+    <string name="loading">Загрузка...</string>
+    <string name="error">Ошибка</string>
+    <string name="success">Успешно</string>
+    <string name="warning">Предупреждение</string>
+    <string name="info">Информация</string>
+    
+    <!-- Messages -->
+    <string name="msg_saved_successfully">Сохранено успешно</string>
+    <string name="msg_deleted_successfully">Удалено успешно</string>
+    <string name="msg_import_successful">Импорт выполнен успешно</string>
+    <string name="msg_export_successful">Экспорт выполнен успешно</string>
+    <string name="msg_connection_successful">Соединение установлено</string>
+    <string name="msg_connection_failed">Соединение не установлено</string>
+    <string name="msg_no_internet">Нет подключения к интернету</string>
+    <string name="msg_camera_permission">Требуется разрешение на использование камеры</string>
+    <string name="msg_storage_permission">Требуется разрешение на доступ к хранилищу</string>
+    
+    <!-- Errors -->
+    <string name="error_required_field">Обязательное поле</string>
+    <string name="error_invalid_barcode">Неверный формат штрих-кода</string>
+    <string name="error_invalid_price">Неверный формат цены</string>
+    <string name="error_network">Ошибка сети</string>
+    <string name="error_server">Ошибка сервера</string>
+    <string name="error_database">Ошибка базы данных</string>
+    <string name="error_file_not_found">Файл не найден</string>
+    <string name="error_permission_denied">Разрешение отклонено</string>
+    
+    <!-- Formats and units -->
+    <string name="format_price">%.2f ₽</string>
+    <string name="format_date">dd.MM.yyyy</string>
+    <string name="format_datetime">dd.MM.yyyy HH:mm</string>
+    <string name="unit_pcs">шт.</string>
+    <string name="unit_kg">кг</string>
+    <string name="unit_l">л</string>
+    <string name="unit_m">м</string>
+    <string name="unit_m2">м²</string>
+    
+    <!-- Categories -->
+    <string name="category_all">Все категории</string>
+    <string name="category_electronics">Электроника</string>
+    <string name="category_clothing">Одежда</string>
+    <string name="category_food">Продукты</string>
+    <string name="category_books">Книги</string>
+    <string name="category_tools">Инструменты</string>
+    <string name="category_other">Другое</string>
+    
+    <!-- Barcode formats -->
+    <string name="barcode_format_ean13">EAN-13</string>
+    <string name="barcode_format_ean8">EAN-8</string>
+    <string name="barcode_format_upca">UPC-A</string>
+    <string name="barcode_format_upce">UPC-E</string>
+    <string name="barcode_format_code39">Code 39</string>
+    <string name="barcode_format_code128">Code 128</string>
+    <string name="barcode_format_qrcode">QR Code</string>
+    <string name="barcode_format_datamatrix">Data Matrix</string>
+    
+    <!-- Export formats -->
+    <string name="export_format_csv">CSV</string>
+    <string name="export_format_excel">Excel</string>
+    <string name="export_format_pdf">PDF</string>
+    <string name="export_format_html">HTML</string>
+    <string name="export_format_json">JSON</string>
+    
+    <!-- Time periods -->
+    <string name="period_today">Сегодня</string>
+    <string name="period_yesterday">Вчера</string>
+    <string name="period_last_7_days">Последние 7 дней</string>
+    <string name="period_last_30_days">Последние 30 дней</string>
+    <string name="period_this_month">Этот месяц</string>
+    <string name="period_last_month">Прошлый месяц</string>
+    <string name="period_all_time">За все время</string>
