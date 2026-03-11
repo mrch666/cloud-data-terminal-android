@@ -1,10 +1,129 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-</resources>
+    <!-- Primary colors -->
+    <color name="primary">#2196F3</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="primary_light">#BBDEFB</color>
+    
+    <!-- Secondary colors -->
+    <color name="secondary">#FF9800</color>
+    <color name="secondary_dark">#F57C00</color>
+    <color name="secondary_light">#FFE0B2</color>
+    
+    <!-- Accent colors -->
+    <color name="accent">#FF4081</color>
+    <color name="accent_dark">#F50057</color>
+    <color name="accent_light">#FF80AB</color>
+    
+    <!-- Status colors -->
+    <color name="success">#4CAF50</color>
+    <color name="success_dark">#388E3C</color>
+    <color name="success_light">#C8E6C9</color>
+    
+    <color name="warning">#FFC107</color>
+    <color name="warning_dark">#FFA000</color>
+    <color name="warning_light">#FFECB3</color>
+    
+    <color name="error">#F44336</color>
+    <color name="error_dark">#D32F2F</color>
+    <color name="error_light">#FFCDD2</color>
+    
+    <color name="info">#2196F3</color>
+    <color name="info_dark">#1976D2</color>
+    <color name="info_light">#BBDEFB</color>
+    
+    <!-- Neutral colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    
+    <!-- Background colors -->
+    <color name="background">#FAFAFA</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="background_dark">#F5F5F5</color>
+    
+    <!-- Text colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#BDBDBD</color>
+    <color name="text_disabled">#9E9E9E</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="text_on_secondary">#000000</color>
+    
+    <!-- Border colors -->
+    <color name="border">#E0E0E0</color>
+    <color name="border_light">#F5F5F5</color>
+    <color name="border_dark">#BDBDBD</color>
+    
+    <!-- Icon colors -->
+    <color name="icon_active">#2196F3</color>
+    <color name="icon_inactive">#757575</color>
+    <color name="icon_disabled">#BDBDBD</color>
+    
+    <!-- Scanner overlay colors -->
+    <color name="scanner_overlay">#66000000</color>
+    <color name="scanner_frame">#4CAF50</color>
+    <color name="scanner_laser">#FF4081</color>
+    
+    <!-- Button colors -->
+    <color name="button_primary">#2196F3</color>
+    <color name="button_primary_disabled">#BBDEFB</color>
+    <color name="button_secondary">#FF9800</color>
+    <color name="button_secondary_disabled">#FFE0B2</color>
+    <color name="button_success">#4CAF50</color>
+    <color name="button_error">#F44336</color>
+    
+    <!-- Card colors -->
+    <color name="card_background">#FFFFFF</color>
+    <color name="card_shadow">#1F000000</color>
+    <color name="card_elevated">#FFFFFF</color>
+    
+    <!-- List item colors -->
+    <color name="list_item_background">#FFFFFF</color>
+    <color name="list_item_selected">#E3F2FD</color>
+    <color name="list_item_hover">#F5F5F5</color>
+    
+    <!-- Tab colors -->
+    <color name="tab_selected">#2196F3</color>
+    <color name="tab_unselected">#757575</color>
+    <color name="tab_indicator">#2196F3</color>
+    
+    <!-- Progress colors -->
+    <color name="progress_background">#E0E0E0</color>
+    <color name="progress_foreground">#2196F3</color>
+    <color name="progress_success">#4CAF50</color>
+    <color name="progress_error">#F44336</color>
+    
+    <!-- Chart colors -->
+    <color name="chart_blue">#2196F3</color>
+    <color name="chart_green">#4CAF50</color>
+    <color name="chart_orange">#FF9800</color>
+    <color name="chart_red">#F44336</color>
+    <color name="chart_purple">#9C27B0</color>
+    <color name="chart_teal">#009688</color>
+    <color name="chart_amber">#FFC107</color>
+    
+    <!-- Status bar colors -->
+    <color name="status_bar">#1976D2</color>
+    <color name="status_bar_dark">#000000</color>
+    
+    <!-- Navigation bar colors -->
+    <color name="navigation_bar">#FFFFFF</color>
+    <color name="navigation_bar_dark">#000000</color>
+    
+    <!-- Divider colors -->
+    <color name="divider">#E0E0E0</color>
+    <color name="divider_light">#F5F5F5</color>
+    
+    <!-- Shadow colors -->
+    <color name="shadow_light">#1A000000</color>
+    <color name="shadow_medium">#33000000</color>
+    <color name="shadow_dark">#66000000</color>
+    
+    <!-- Gradient colors -->
+    <color name="gradient_start">#2196F3</color>
+    <color name="gradient_end">#1976D2</color>
+    <color name="gradient_success_start">#4CAF50</color>
+    <color name="gradient_success_end">#388E3C</color>
+    <color name="gradient_warning_start">#FFC107</color>
+    <color name="gradient_warning_end">#FFA000</color>

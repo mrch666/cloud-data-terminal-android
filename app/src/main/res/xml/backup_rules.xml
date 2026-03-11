@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Включаем базу данных для резервного копирования -->
+    <include domain="database" path="cloud_terminal.db" />
+    
+    <!-- Включаем SharedPreferences -->
+    <include domain="sharedpref" path="." />
+    
+    <!-- Включаем файлы приложения -->
+    <include domain="file" path="exports/" />
+    <include domain="file" path="imports/" />
+    <include domain="file" path="logs/" />
+    
+    <!-- Исключаем временные файлы -->
+    <exclude domain="file" path="cache/" />
+    <exclude domain="file" path="temp/" />
+    
+    <!-- Исключаем большие файлы -->
+    <exclude domain="file" path="images/" />
+    <exclude domain="file" path="videos/" />
+    
+    <!-- Исключаем файлы конфигурации, содержащие чувствительные данные -->
+    <exclude domain="sharedpref" path="com.cloudterminal_preferences.xml" />
+</full-backup-content>
